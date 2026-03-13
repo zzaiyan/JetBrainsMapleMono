@@ -10,6 +10,7 @@
 ## 原作者说明
 * 原项目作者: **Space Time**
 * 原项目仓库: [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono)
+* 当前仓库: [zzaiyan/JetBrainsMapleMono](https://github.com/zzaiyan/JetBrainsMapleMono)
 * 当前仓库为该项目的衍生版本，保留原自动化流程与开源协议
 
 ## 当前版本变动
@@ -27,8 +28,8 @@
 ![Font Showcase](https://github.com/user-attachments/assets/6587588d-1a9d-4ee7-a0f9-8dd2e7f417e0)
 
 ## 下载地址
-1. **Github (latest): [https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/latest](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/latest)**
-2. Github (preview): [https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/tag/pre](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/tag/pre)
+1. **Github (latest): [https://github.com/zzaiyan/JetBrainsMapleMono/releases/latest](https://github.com/zzaiyan/JetBrainsMapleMono/releases/latest)**
+2. Github (preview): [https://github.com/zzaiyan/JetBrainsMapleMono/releases/tag/pre](https://github.com/zzaiyan/JetBrainsMapleMono/releases/tag/pre)
 
 ## 下载哪个
 发布文件按 **JetMapMono-[NF/XX]-[NR/XX]-[NL/XX]-[HT/XX].zip** 的格式命名:
@@ -49,7 +50,7 @@
 ZSFT: [https://fonts.zeoseven.com/items/521](https://fonts.zeoseven.com/items/521)
 
 ## 脚本流程
-1. 每 5 - 30 分钟自动向上游 JetBrains Mono & Maple Mono 存储库**检查 Release 和 Commit 更新**
+1. 每 6 小时自动向上游 JetBrains Mono & Maple Mono 存储库**检查 Release 和 Commit 更新**
 
 > 可手动选择跳过检查更新强制合成字体
 

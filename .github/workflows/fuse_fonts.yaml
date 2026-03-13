@@ -2,7 +2,7 @@ name: Fuse Fonts
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 */6 * * *"
   push:
     branches:
       - "**"
