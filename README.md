@@ -1,11 +1,22 @@
-<h1 align="center">JetBrains Maple Mono</h1>
+<h1 align="center">JetMap Mono</h1>
 <h3 align="center">- JetBrains Mono + Maple Mono -</h3>
 </br>
 
 ## 自我介绍
-**JetBrains Maple Mono**: 一只基于 **Github Workflows (Bash)** 的 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) + [Maple Mono](https://github.com/subframe7536/maple-font) 合成字体
+**JetMap Mono**: 一只基于 **Github Workflows (Bash)** 的 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) + [Maple Mono](https://github.com/subframe7536/maple-font) 合成字体
 
 * 适用平台: Any
+
+## 原作者说明
+* 原项目作者: **Space Time**
+* 原项目仓库: [SpaceTimee/Fusion-JetBrainsMapleMono](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono)
+* 当前仓库为该项目的衍生版本，保留原自动化流程与开源协议
+
+## 当前版本变动
+1. 字体命名由 `JetBrainsMapleMono` 调整为 `JetMapMono`（显示名: `JetMap Mono`）
+2. 保留原矩阵构建发布能力（`NF/XX`、`NR/XX`、`NL/XX`、`HT/XX` 组合）
+3. 新增无后缀默认发布包 `JetMapMono.zip`，其配置等同 `JetMapMono-NF-XX-XX-XX.zip`
+4. 字体元数据中的 Vendor URL 改为随仓库自动变化，避免硬编码到旧仓库地址
 
 ## 字形特征
 * 完美融合，Maple Mono 补充 JetBrains Mono 中日字形空缺
@@ -20,7 +31,7 @@
 2. Github (preview): [https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/tag/pre](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/tag/pre)
 
 ## 下载哪个
-发布文件按 **JetBrainsMapleMono-[NF/XX]-[NR/XX]-[NL/XX]-[HT/XX].zip** 的格式命名:
+发布文件按 **JetMapMono-[NF/XX]-[NR/XX]-[NL/XX]-[HT/XX].zip** 的格式命名:
 
 1. XX: 占位符，表示该字体没有增加这一特性
 2. NF: Nerd Font，为部分开发工具、命令行终端、代码编辑器等提供图标支持 (会导致字体文件体积略微增大)
@@ -28,7 +39,7 @@
 4. NL: No Ligatures，禁用连字
 5. HT: Hinted，使字体在低分辨率屏幕上 (<=1080P) 的渲染更加均匀 (可能会导致字体在高分辨率屏幕上的渲染略微模糊)
 
-> 如果依然不清楚如何选择请下载 **JetBrainsMapleMono-XX-XX-XX-XX.zip**
+> 默认推荐下载 **JetMapMono.zip**，它等同于 **JetMapMono-NF-XX-XX-XX.zip**
 
 ## 注意事项
 1. 如果在 Visual Studio 中使用本字体，请务必在 `设置 -> 文本编辑器 -> 高级` 中将 `文本格式设置方法` 设置为 `理想`，否则可能导致字体渲染不均匀
@@ -75,6 +86,6 @@ ZSFT: [https://fonts.zeoseven.com/items/521](https://fonts.zeoseven.com/items/52
 2. 我的[其他项目](https://github.com/SpaceTimee/Sheas-Cealer)的 QQ 群: 964102080，1034315671，716266896，338919498
 
 ## 开源协议
-[OFL-1.1](https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono?tab=OFL-1.1-1-ov-file)
+[OFL-1.1](./OFL.txt)
 
 •ᴗ•
